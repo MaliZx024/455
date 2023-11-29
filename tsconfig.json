@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "editor.minimap.enabled": false,
+"editor.fontFamily": "'JetBrains Mono',Consolas, 'Courier New', monospace",
+"editor.fontSize": 15,
+"editor.fontLigatures": true,
+"editor.formatOnSave": true,
+"editor.accessibilitySupport": "off",
+"editor.guides.bracketPairs": true,
+"editor.guides.bracketPairsHorizontal": false,
+"editor.wordWrapColumn": 150,
+"editor.wordWrap": "wordWrapColumn",
+"editor.lineHeight": 22,
+"audioCues.volume": 0,
+"diffEditor.wordWrap": "on",
+"diffEditor.ignoreTrimWhitespace": false,
+"terminal.integrated.fontSize": 15,
+"debug.console.fontSize": 15,
+"files.autoSave": "onFocusChange",
+"security.workspace.trust.untrustedFiles": "open",
+//dotnet
+"csharp.format.enable":true,
+"[csharp]": { "editor.defaultFormatter": "ms-dotnettools.csharp" },
+//ts and js
+"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+"javascript.format.semicolons": "remove",
+"javascript.updateImportsOnFileMove.enabled": "always",
+"[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+"typescript.updateImportsOnFileMove.enabled": "always",
+                           /* Skip type checking all .d.ts files. */
+  }
+}

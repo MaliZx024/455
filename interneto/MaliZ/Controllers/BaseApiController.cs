@@ -2,8 +2,8 @@
 namespace API.Controllers;
 
 [ApiController]
-[Route("maliz/controllor")]
-public class BaseApiControllor
+[Route("api/[controller]")]
+public class BaseApiController : ControllerBase
 {
     
 }
